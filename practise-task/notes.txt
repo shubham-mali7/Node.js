@@ -1,0 +1,22 @@
+
+
+
+
+
+const fs = require('fs');
+
+// Read the JSON file
+fs.readFile('data.json', 'utf8', (err, jsonString) => {
+    if (err) {
+        console.error('Error reading file:', err);
+        return;
+    }
+    
+    try {
+        // Parse JSON string
+        const data = JSON.parse(jsonString);
+        console.log(data);
+    } catch (error) {
+        console.error('Invalid JSON string:', error);
+    }
+});
