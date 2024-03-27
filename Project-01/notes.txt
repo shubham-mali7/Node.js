@@ -1,0 +1,5 @@
+REST API
+
+when we talk about a "REST API in Node.js," we're referring to building an API following the principles of REST architecture using Node.js as the runtime environment. This means creating endpoints (URLs) that clients can access to perform certain actions (like fetching data, updating data, deleting data) using HTTP methods like GET, POST, PUT, DELETE.
+
+In simpler terms, it's like setting up a system where different applications (or parts of the same application) can talk to each other over the internet using URLs, and Node.js helps in creating and managing this communication system.
